@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Market.BusinessModel.Internal\Market.BusinessModel.Internal.csproj" />
+    <ProjectReference Include="..\Market.BusinessModel\Market.BusinessModel.csproj" />
+    <ProjectReference Include="..\Market.DataAccess\Market.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

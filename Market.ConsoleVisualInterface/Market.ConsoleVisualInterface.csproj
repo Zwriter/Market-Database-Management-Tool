@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Market.BusinessModel.Internal\Market.BusinessModel.Internal.csproj" />
+    <ProjectReference Include="..\Market.BusinessModel\Market.BusinessModel.csproj" />
+    <ProjectReference Include="..\Market.DataAccess\Market.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

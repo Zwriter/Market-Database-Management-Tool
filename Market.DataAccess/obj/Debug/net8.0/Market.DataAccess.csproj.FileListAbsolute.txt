@@ -1,0 +1,15 @@
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.csproj.AssemblyReference.cache
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.AssemblyInfoInputs.cache
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.AssemblyInfo.cs
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Market app\Market.DataAccess\bin\Debug\net8.0\Market.DataAccess.deps.json
+D:\Programming\C#\Market app\Market.DataAccess\bin\Debug\net8.0\Market.DataAccess.dll
+D:\Programming\C#\Market app\Market.DataAccess\bin\Debug\net8.0\Market.DataAccess.pdb
+D:\Programming\C#\Market app\Market.DataAccess\bin\Debug\net8.0\Market.BusinessModel.dll
+D:\Programming\C#\Market app\Market.DataAccess\bin\Debug\net8.0\Market.BusinessModel.pdb
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.D.ABB6E264.Up2Date
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.dll
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\refint\Market.DataAccess.dll
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.pdb
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\ref\Market.DataAccess.dll

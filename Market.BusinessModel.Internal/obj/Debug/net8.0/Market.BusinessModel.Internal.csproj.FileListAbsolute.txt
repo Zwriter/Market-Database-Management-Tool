@@ -1,0 +1,17 @@
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.csproj.AssemblyReference.cache
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.AssemblyInfoInputs.cache
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.AssemblyInfo.cs
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.BusinessModel.Internal.deps.json
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.BusinessModel.Internal.dll
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.BusinessModel.Internal.pdb
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.BusinessModel.dll
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.DataAccess.dll
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.BusinessModel.pdb
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\bin\Debug\net8.0\Market.DataAccess.pdb
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.B.1B38FB8C.Up2Date
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.dll
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\refint\Market.BusinessModel.Internal.dll
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.pdb
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\ref\Market.BusinessModel.Internal.dll

@@ -1,0 +1,11 @@
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.AssemblyInfoInputs.cache
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.AssemblyInfo.cs
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Market app\Market.BusinessModel\bin\Debug\net8.0\Market.BusinessModel.deps.json
+D:\Programming\C#\Market app\Market.BusinessModel\bin\Debug\net8.0\Market.BusinessModel.dll
+D:\Programming\C#\Market app\Market.BusinessModel\bin\Debug\net8.0\Market.BusinessModel.pdb
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.dll
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\refint\Market.BusinessModel.dll
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.pdb
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\ref\Market.BusinessModel.dll
