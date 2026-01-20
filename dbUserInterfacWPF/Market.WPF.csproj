@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Styles\" />
+    <Folder Include="Fonts\" />
   </ItemGroup>
 
   <ItemGroup>

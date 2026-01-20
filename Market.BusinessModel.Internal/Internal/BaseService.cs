@@ -22,13 +22,6 @@ namespace Market.BusinessLogic.Services
             return _repo.Query(query).ToList();
         }
 
-        //public virtual List<TModel> QueryGeneric<TSort2>(QueryRequest<TSort2> request)
-        //    where TSort2 : struct, Enum
-        //{
-        //    if (request == null) throw new ArgumentNullException(nameof(request));
-        //    return _repo.Query(request).ToList();
-        //}
-
         public virtual void Create(TModel entity)
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));

@@ -13,3 +13,4 @@ D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAcces
 D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\refint\Market.DataAccess.dll
 D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.pdb
 D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\ref\Market.DataAccess.dll
+D:\Programming\C#\Market app\Market.DataAccess\obj\Debug\net8.0\Market.DataAccess.sourcelink.json

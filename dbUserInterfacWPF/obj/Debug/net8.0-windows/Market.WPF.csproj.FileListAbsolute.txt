@@ -75,3 +75,15 @@ D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\refint\M
 D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Market.WPF.pdb
 D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Market.WPF.genruntimeconfig.cache
 D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\ref\Market.WPF.dll
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Market.WPF.sourcelink.json
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Styles\Button.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Styles\Page.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Categories.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Clients.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Factories.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Home.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Products.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Receipts.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Records.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Sale.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

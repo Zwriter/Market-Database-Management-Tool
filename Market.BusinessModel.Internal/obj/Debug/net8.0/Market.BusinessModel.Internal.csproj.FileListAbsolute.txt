@@ -15,3 +15,4 @@ D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Mark
 D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\refint\Market.BusinessModel.Internal.dll
 D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.pdb
 D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\ref\Market.BusinessModel.Internal.dll
+D:\Programming\C#\Market app\Market.BusinessModel.Internal\obj\Debug\net8.0\Market.BusinessModel.Internal.sourcelink.json

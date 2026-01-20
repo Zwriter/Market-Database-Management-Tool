@@ -1,4 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="View\Categories.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Clients.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Factories.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Products.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Receipts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Records.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Sale.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
