@@ -10,8 +10,8 @@ namespace Market.BusinessModel.Models
     [Table("tSale")]
     public class SaleModel : BaseModel
     {
-        public int ReceiptId { get; set; }
-        public int ProductId { get; set; }
+        public string ReceiptId { get; set; }
+        public string ProductId { get; set; }
         public int Quantity { get; set; }
     }
 }

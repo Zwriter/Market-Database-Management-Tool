@@ -21,7 +21,7 @@ namespace Market.BusinessLogic.Services
             if (query == null) throw new ArgumentNullException(nameof(query));
             return _clientRepo.Get(query);
         }
-
+        public ClientModel GetClientsById(string id) => GetById(id);
         public void CreateClient(ClientModel client) => Create(client);
         public void UpdateClient(ClientModel client) => Update(client);
         public void DeleteClient(ClientModel client) => Delete(client);

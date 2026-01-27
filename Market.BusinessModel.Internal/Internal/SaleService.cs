@@ -12,6 +12,7 @@ namespace Market.BusinessLogic.Services
         public SaleService(IRepository<SaleModel> repo) : base(repo) { }
 
         public List<SaleModel> GetSales(SaleQuery query) => Get(query);
+        public SaleModel GetSalesById(string id) => GetById(id);
         public void CreateSale(SaleModel sale) => Create(sale);
         public void UpdateSale(SaleModel sale) => Update(sale);
         public void DeleteSale(SaleModel sale) => Delete(sale);

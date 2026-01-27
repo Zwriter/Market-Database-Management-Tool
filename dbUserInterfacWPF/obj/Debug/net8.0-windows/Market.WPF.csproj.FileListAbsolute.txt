@@ -87,3 +87,15 @@ D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Rec
 D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Records.g.cs
 D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Sale.g.cs
 D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Styles\Image.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Styles\Text.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Home.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\App.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Categories.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Clients.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Factories.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Products.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Receipts.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Records.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\View\Sale.baml
+D:\Programming\C#\Market app\dbUserInterfacWPF\obj\Debug\net8.0-windows\Utilities\DataTemplate.baml

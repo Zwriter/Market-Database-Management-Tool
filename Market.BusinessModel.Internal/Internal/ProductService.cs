@@ -11,6 +11,7 @@ namespace Market.BusinessLogic.Services
         public ProductService(IRepository<ProductModel> repo) : base(repo) { }
 
         public List<ProductModel> GetProducts(ProductQuery query) => Get(query);
+        public ProductModel GetProductsById(string id) => GetById(id);
         public void CreateProduct(ProductModel product) => Create(product);
         public void UpdateProduct(ProductModel product) => Update(product);
         public void DeleteProduct(ProductModel product) => Delete(product);

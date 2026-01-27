@@ -69,3 +69,4 @@ D:\Programming\C#\Market app\Market.ConsoleVisualInterface\obj\Debug\net8.0\refi
 D:\Programming\C#\Market app\Market.ConsoleVisualInterface\obj\Debug\net8.0\Market.ConsoleVisualInterface.pdb
 D:\Programming\C#\Market app\Market.ConsoleVisualInterface\obj\Debug\net8.0\Market.ConsoleVisualInterface.genruntimeconfig.cache
 D:\Programming\C#\Market app\Market.ConsoleVisualInterface\obj\Debug\net8.0\ref\Market.ConsoleVisualInterface.dll
+D:\Programming\C#\Market app\Market.ConsoleVisualInterface\obj\Debug\net8.0\Market.ConsoleVisualInterface.sourcelink.json

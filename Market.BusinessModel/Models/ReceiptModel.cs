@@ -11,7 +11,7 @@ namespace Market.BusinessModel.Models
     [Table("tReceipt")]
     public class ReceiptModel : BaseModel, ICreatedEntity
     {
-        public int ClientId { get; set; }
+        public string ClientId { get; set; }
 
         public DateTime CreatedAt { get; set; }
     }

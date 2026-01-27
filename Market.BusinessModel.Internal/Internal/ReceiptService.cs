@@ -11,6 +11,7 @@ namespace Market.BusinessLogic.Services
         public ReceiptService(IRepository<ReceiptModel> repo) : base(repo) { }
 
         public List<ReceiptModel> GetReceipts(ReceiptQuery query) => Get(query);
+        public ReceiptModel GetReceiptsById(string id) => GetById(id);
         public void CreateReceipt(ReceiptModel receipt) => Create(receipt);
         public void UpdateReceipt(ReceiptModel receipt) => Update(receipt);
         public void DeleteReceipt(ReceiptModel receipt) => Delete(receipt);

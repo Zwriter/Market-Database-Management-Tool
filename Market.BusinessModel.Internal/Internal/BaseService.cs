@@ -22,6 +22,12 @@ namespace Market.BusinessLogic.Services
             return _repo.Query(query).ToList();
         }
 
+        public virtual TModel? GetById(string id)
+        {
+            if (!_repo.Exists(id)) throw new ArgumentNullException(nameof(id));
+            return _repo.GetById(id);
+        }
+
         public virtual void Create(TModel entity)
         {
             if (entity == null) throw new ArgumentNullException(nameof(entity));

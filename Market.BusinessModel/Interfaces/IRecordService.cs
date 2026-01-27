@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface IRecordService
     {
         List<RecordModel> GetRecords(RecordQuery query);
+        RecordModel GetRecordsById(string id);
         void CreateRecord(RecordModel record);
         void UpdateRecord(RecordModel record);
         void DeleteRecord(RecordModel record);

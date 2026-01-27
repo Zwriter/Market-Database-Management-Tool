@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface ISaleService
     {
         List<SaleModel> GetSales(SaleQuery query);
+        SaleModel GetSalesById(string id);
         void CreateSale(SaleModel sale);
         void UpdateSale(SaleModel sale);
         void DeleteSale(SaleModel sale);

@@ -11,6 +11,7 @@ namespace Market.BusinessLogic.Services
         public RecordService(IRepository<RecordModel> repo) : base(repo) { }
 
         public List<RecordModel> GetRecords(RecordQuery query) => Get(query);
+        public RecordModel GetRecordsById(string id) => GetById(id);
         public void CreateRecord(RecordModel record) => Create(record);
         public void UpdateRecord(RecordModel record) => Update(record);
         public void DeleteRecord(RecordModel record) => Delete(record);

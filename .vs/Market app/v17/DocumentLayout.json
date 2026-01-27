@@ -3,72 +3,32 @@
   "WorkspaceRootPath": "D:\\Programming\\C#\\Market app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\navigationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\navigationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\factoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\factoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\forms\\updatebuttonform\\categoriesupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\categoriesupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\forms\\updatebuttonform\\factoriesupdateform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\factoriesupdateform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\receiptvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\receiptvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\recordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\recordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\viewmodel\\salevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\viewmodel\\salevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\utilities\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\utilities\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\styles\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\styles\\text.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\styles\\page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\styles\\page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\styles\\image.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\styles\\image.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|d:\\programming\\c#\\market app\\dbuserinterfacwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18E5AE52-541E-420D-BB50-1D7F268CFAC9}|dbUserInterfacWPF\\Market.WPF.csproj|solutionrelative:dbuserinterfacwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,222 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SaleVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\SaleVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\SaleVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\SaleVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\SaleVM.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:49:15.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RecordVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\RecordVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\RecordVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\RecordVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\RecordVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:48:59.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FactoryVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\FactoryVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\FactoryVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\FactoryVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\FactoryVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:47:16.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\ClientVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\ClientVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\ClientVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\ClientVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:41:15.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ReceiptVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\ReceiptVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\ReceiptVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\ReceiptVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\ReceiptVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\MainForm.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\MainForm.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\MainForm.cs [Design]",
+              "RelativeToolTip": "Market.WindowsForm\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:41:14.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\ProductVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\ProductVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\ProductVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\ProductVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:41:13.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\CategoryVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\CategoryVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\CategoryVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\CategoryVM.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:40:56.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T15:58:38.629Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\HomeVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\HomeVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\HomeVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\HomeVM.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "Clients.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Controllers\\Clients.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs",
+              "RelativeToolTip": "Market.WindowsForm\\Controllers\\Clients.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwIwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:40:12.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Utilities\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\Utilities\\RelayCommand.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Utilities\\RelayCommand.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\Utilities\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:39:40.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Utilities\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\Utilities\\ViewModelBase.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Utilities\\ViewModelBase.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\Utilities\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:26:23.417Z",
+              "WhenOpened": "2026-01-27T16:49:48.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NavigationVM.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\NavigationVM.cs",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\ViewModel\\NavigationVM.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\ViewModel\\NavigationVM.cs",
-              "RelativeToolTip": "dbUserInterfacWPF\\ViewModel\\NavigationVM.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwCsAAAAFAAAAAAAAAA==",
+              "Title": "Clients.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Controllers\\Clients.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs [Design]",
+              "RelativeToolTip": "Market.WindowsForm\\Controllers\\Clients.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T20:20:03.026Z",
+              "WhenOpened": "2026-01-27T16:49:35.639Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientsUpdateForm.cs",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs*",
+              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T16:46:49.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\App.xaml",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\App.xaml",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\App.xaml",
-              "RelativeToolTip": "dbUserInterfacWPF\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-19T19:13:04.522Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "FactoriesUpdateForm.cs.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs [Design]",
+              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T18:22:12.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Text.xaml",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Text.xaml",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\Styles\\Text.xaml",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Text.xaml",
-              "RelativeToolTip": "dbUserInterfacWPF\\Styles\\Text.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-19T18:23:16.371Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "ClientsUpdateForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs [Design]*",
+              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T18:13:35.008Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Page.xaml",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Page.xaml",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\Styles\\Page.xaml",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Page.xaml",
-              "RelativeToolTip": "dbUserInterfacWPF\\Styles\\Page.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-19T18:22:59.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Image.xaml",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Image.xaml",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\Styles\\Image.xaml",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Image.xaml",
-              "RelativeToolTip": "dbUserInterfacWPF\\Styles\\Image.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-19T18:22:41.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Button.xaml",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Button.xaml",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\Styles\\Button.xaml",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\Styles\\Button.xaml",
-              "RelativeToolTip": "dbUserInterfacWPF\\Styles\\Button.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-19T18:18:38.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "dbUserInterfacWPF\\MainWindow.xaml",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\dbUserInterfacWPF\\MainWindow.xaml",
-              "RelativeToolTip": "dbUserInterfacWPF\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T11:21:09.827Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "CategoriesUpdateForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs [Design]*",
+              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:24:54.162Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

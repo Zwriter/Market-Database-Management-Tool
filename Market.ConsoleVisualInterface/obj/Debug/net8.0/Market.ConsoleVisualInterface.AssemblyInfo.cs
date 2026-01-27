@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Market.ConsoleVisualInterface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ccc4d7f365b9713ba269c56f3ad909bde0f8828")]
 [assembly: System.Reflection.AssemblyProductAttribute("Market.ConsoleVisualInterface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Market.ConsoleVisualInterface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

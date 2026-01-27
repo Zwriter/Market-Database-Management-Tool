@@ -9,3 +9,4 @@ D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.Busine
 D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\refint\Market.BusinessModel.dll
 D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.pdb
 D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\ref\Market.BusinessModel.dll
+D:\Programming\C#\Market app\Market.BusinessModel\obj\Debug\net8.0\Market.BusinessModel.sourcelink.json

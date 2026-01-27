@@ -12,6 +12,7 @@ namespace Market.BusinessLogic.Services
         public CategoryService(IRepository<CategoryModel> repo) : base(repo) { }
 
         public List<CategoryModel> GetCategories(CategoryQuery query) => Get(query);
+        public CategoryModel GetCategoriesById(string id) => GetById(id);
         public void CreateCategory(CategoryModel category) => Create(category);
         public void UpdateCategory(CategoryModel category) => Update(category);
         public void DeleteCategory(CategoryModel category) => Delete(category);

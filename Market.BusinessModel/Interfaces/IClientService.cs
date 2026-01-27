@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface IClientService
     {
         List<ClientModel> GetClients(ClientQuery query);
+        ClientModel GetClientsById(string id);
         void CreateClient(ClientModel client);
         void UpdateClient(ClientModel client);
         void DeleteClient(ClientModel client);

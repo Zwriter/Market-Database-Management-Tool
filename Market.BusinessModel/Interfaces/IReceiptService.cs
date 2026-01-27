@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface IReceiptService
     {
         List<ReceiptModel> GetReceipts(ReceiptQuery query);
+        ReceiptModel GetReceiptsById(string id);
         void CreateReceipt(ReceiptModel receipt);
         void UpdateReceipt(ReceiptModel receipt);
         void DeleteReceipt(ReceiptModel receipt);

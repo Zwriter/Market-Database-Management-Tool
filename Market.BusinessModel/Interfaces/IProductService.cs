@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface IProductService
     {
         List<ProductModel> GetProducts(ProductQuery query);
+        ProductModel GetProductsById(string id);
         void CreateProduct(ProductModel product);
         void UpdateProduct(ProductModel product);
         void DeleteProduct(ProductModel product);

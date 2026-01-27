@@ -10,9 +10,9 @@ namespace Market.BusinessModel.Models
     [Table("tRecord")]
     public class RecordModel : BaseModel
     {
-        public int CategoryId { get; set; }
-        public int FactoryId { get; set; }
-        public int ProductId { get; set; }
+        public string CategoryId { get; set; }
+        public string FactoryId { get; set; }
+        public string ProductId { get; set; }
         public int Stock { get; set; }
         public decimal Price { get; set; }
         public DateTime ExpirationDate { get; set; }

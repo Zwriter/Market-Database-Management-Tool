@@ -1,38 +1,38 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:vm="clr-namespace:dbUserInterfacWPF.ViewModels"
-                    xmlns:view="clr-namespace:dbUserInterfacWPF.View">
+                    xmlns:vm="clr-namespace:Market.WPF.ViewModel"
+                    xmlns:view="clr-namespace:Market.WPF.View">
 
-	<DataTemplate DataType="{x:Type vm:HomeVM}">
+	<DataTemplate DataType="{x:Type vm:HomeViewModel}">
 		<view:Home />
 	</DataTemplate>
 
-	<DataTemplate DataType="{x:Type vm:ClientVM}">
+	<DataTemplate DataType="{x:Type vm:ClientViewModel}">
 		<view:Clients />
 	</DataTemplate>
 
-	<DataTemplate DataType="{x:Type vm:CategoryVM}">
+	<DataTemplate DataType="{x:Type vm:CategoryViewModel}">
 		<view:Categories />
 	</DataTemplate>
 
-	<DataTemplate DataType="{x:Type vm:ProductVM}">
+	<DataTemplate DataType="{x:Type vm:ProductViewModel}">
 		<view:Products />
 	</DataTemplate>
 
-	<DataTemplate DataType="{x:Type vm:OrderVM}">
-		<view:Orders />
-	</DataTemplate>
-
-	<DataTemplate DataType="{x:Type vm:ReceiptVM}">
+	<DataTemplate DataType="{x:Type vm:ReceiptViewModel}">
 		<view:Receipts />
 	</DataTemplate>
 
-	<DataTemplate DataType="{x:Type vm:RecordVM}">
+	<DataTemplate DataType="{x:Type vm:RecordViewModel}">
 		<view:Records />
 	</DataTemplate>
 
-	<DataTemplate DataType="{x:Type vm:SaleVM}">
-		<view:Sales />
+	<DataTemplate DataType="{x:Type vm:SaleViewModel}">
+		<view:Sale />
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type vm:FactoryViewModel}">
+		<view:Factories />
 	</DataTemplate>
 
 </ResourceDictionary>

@@ -1,0 +1,70 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<!-- Color tokens (use these keys throughout the app) -->
+	<Color x:Key="PrimaryColor">#FF212529</Color>
+	<Color x:Key="SecondaryColor">#FF272B2F</Color>
+	<Color x:Key="TextColor">#FFDBDBDB</Color>
+	<Color x:Key="AccentColor">#FFCED565</Color>
+
+	<SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}" />
+	<SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}" />
+	<SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}" />
+	<SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+
+	<!-- General DataGrid style -->
+	<Style TargetType="DataGrid">
+		<Setter Property="Background" Value="{StaticResource PrimaryBrush}" />
+		<Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+		<Setter Property="RowBackground" Value="{StaticResource SecondaryBrush}" />
+		<Setter Property="AlternatingRowBackground" Value="{StaticResource PrimaryBrush}" />
+		<Setter Property="GridLinesVisibility" Value="None" />
+		<Setter Property="BorderBrush" Value="{StaticResource SecondaryBrush}" />
+		<Setter Property="HorizontalGridLinesBrush" Value="{StaticResource SecondaryBrush}" />
+		<Setter Property="VerticalGridLinesBrush" Value="{StaticResource SecondaryBrush}" />
+		<Setter Property="RowHeaderWidth" Value="0" />
+		<Setter Property="CanUserAddRows" Value="False" />
+		<Setter Property="CanUserDeleteRows" Value="False" />
+		<Setter Property="CanUserResizeRows" Value="False" />
+		<Setter Property="SelectionMode" Value="Single" />
+		<Setter Property="SelectionUnit" Value="FullRow" />
+	</Style>
+
+	<!-- Column header styling -->
+	<Style TargetType="DataGridColumnHeader">
+		<Setter Property="Background" Value="{StaticResource SecondaryBrush}" />
+		<Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+		<Setter Property="BorderThickness" Value="0" />
+		<Setter Property="Padding" Value="8,6" />
+		<Setter Property="HorizontalContentAlignment" Value="Left" />
+		<Setter Property="FontWeight" Value="SemiBold" />
+	</Style>
+
+	<!-- Row styling -->
+	<Style TargetType="DataGridRow">
+		<Setter Property="Background" Value="Transparent" />
+		<Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+		<Setter Property="BorderThickness" Value="0" />
+		<Setter Property="Padding" Value="4,2" />
+		<Style.Triggers>
+			<Trigger Property="IsSelected" Value="True">
+				<Setter Property="Background" Value="{StaticResource AccentBrush}" />
+				<Setter Property="Foreground" Value="{StaticResource PrimaryBrush}" />
+			</Trigger>
+		</Style.Triggers>
+	</Style>
+
+	<!-- Cell styling -->
+	<Style TargetType="DataGridCell">
+		<Setter Property="Padding" Value="8,4" />
+		<Setter Property="BorderThickness" Value="0" />
+		<Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+		<Style.Triggers>
+			<Trigger Property="IsSelected" Value="True">
+				<Setter Property="Background" Value="{StaticResource AccentBrush}" />
+				<Setter Property="Foreground" Value="{StaticResource PrimaryBrush}" />
+			</Trigger>
+		</Style.Triggers>
+	</Style>
+
+</ResourceDictionary>

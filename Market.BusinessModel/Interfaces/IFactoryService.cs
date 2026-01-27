@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface IFactoryService
     {
         List<FactoryModel> GetFactories(FactoryQuery query);
+        FactoryModel GetFactoryById(string id);
         void CreateFactory(FactoryModel factory);
         void UpdateFactory(FactoryModel factory);
         void DeleteFactory(FactoryModel factory);

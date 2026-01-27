@@ -11,6 +11,7 @@ namespace Market.BusinessModel.Interfaces
     public interface ICategoryService
     {
         List<CategoryModel> GetCategories(CategoryQuery query);
+        CategoryModel GetCategoriesById(string id);
         void CreateCategory(CategoryModel category);
         void UpdateCategory(CategoryModel category);
         void DeleteCategory(CategoryModel category);
