@@ -8,29 +8,43 @@ namespace Market.WindowsForm.Forms
     public partial class ProductsCreateForm : Form
     {
         private readonly ServiceFactory _serviceProduct;
-        private readonly IProductService _categoryService;
+        private readonly IProductService _productService;
 
         public ProductsCreateForm()
         {
             InitializeComponent();
             _serviceProduct = new ServiceFactory();
-            _categoryService = _serviceProduct.CreateProductService();
+            _productService = _serviceProduct.CreateProductService();
         }
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            var text = textBox1.Text;
-            if (!string.IsNullOrEmpty(text))
+            var text = textBox1.Text?.Trim();
+
+            if (string.IsNullOrEmpty(text))
             {
-                _categoryService.CreateProduct(new ProductModel
+                MessageBox.Show("Product name is required.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox1.Focus();
+                return;
+            }
+
+            try
+            {
+                _productService.CreateProduct(new ProductModel
                 {
                     ProductName = text
                 });
+
+                MessageBox.Show("Product created successfully.", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 this.Close();
             }
-            else
+            catch (Exception ex)
             {
-                return;
+                MessageBox.Show($"Failed to create product: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

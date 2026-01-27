@@ -9,6 +9,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using Market.WindowsForm.Forms.UpdateButtonForm;
 using Market.WindowsForm.Forms.FilterButtonForm;
+using Market.WindowsForm.Utils;
 
 namespace Market.WindowsForm.Controls
 {
@@ -112,7 +113,18 @@ namespace Market.WindowsForm.Controls
 
         private void exportButton_Click(object sender, EventArgs e)
         {
-        
+            try
+            {
+                var success = XmlExporter.ExportDataGridViewToXml(CategoriesGridView, "Categories");
+                if (success)
+                {
+                    MessageBox.Show("Export completed successfully.", "Export", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Export failed: {ex.Message}", "Export Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void filterButton_Click(object sender, EventArgs e)

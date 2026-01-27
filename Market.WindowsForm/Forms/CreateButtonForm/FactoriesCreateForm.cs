@@ -1,44 +1,50 @@
 ﻿using Market.BusinessModel.Interfaces;
 using Market.BusinessModel.Internal;
 using Market.BusinessModel.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace Market.WindowsForm.Forms
 {
     public partial class FactoriesCreateForm : Form
     {
         private readonly ServiceFactory _serviceFactory;
-        private readonly IFactoryService _categoryService;
+        private readonly IFactoryService _factoryService;
 
         public FactoriesCreateForm()
         {
             InitializeComponent();
             _serviceFactory = new ServiceFactory();
-            _categoryService = _serviceFactory.CreateFactoryService();
+            _factoryService = _serviceFactory.CreateFactoryService();
         }
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            var text = textBox1.Text;
-            if (!string.IsNullOrEmpty(text))
+            var text = textBox1.Text?.Trim();
+
+            if (string.IsNullOrEmpty(text))
             {
-                _categoryService.CreateFactory(new FactoryModel
+                MessageBox.Show("Factory name is required.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox1.Focus();
+                return;
+            }
+
+            try
+            {
+                _factoryService.CreateFactory(new FactoryModel
                 {
                     FactoryName = text
                 });
+
+                MessageBox.Show("Factory created successfully.", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 this.Close();
             }
-            else
+            catch (Exception ex)
             {
-                return;
+                MessageBox.Show($"Failed to create factory: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -67,6 +67,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
             {
                 MessageBox.Show("Please select a receipt.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                receiptComboBox.Focus();
                 return;
             }
 
@@ -74,6 +75,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
             {
                 MessageBox.Show("Please select a product.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                productComboBox.Focus();
                 return;
             }
 
@@ -85,9 +87,9 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
                 return;
             }
 
-            if (!int.TryParse(quantityTextBox.Text, out int quantity) || quantity <= 0)
+            if (!int.TryParse(quantityTextBox.Text.Trim(), out int quantity) || quantity <= 0)
             {
-                MessageBox.Show("Please enter a valid quantity (positive number).", "Validation Error",
+                MessageBox.Show("Please enter a valid quantity (positive integer).", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 quantityTextBox.Focus();
                 return;
@@ -95,8 +97,8 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
 
             try
             {
-                string receiptId = receiptComboBox.SelectedValue.ToString();
-                string productId = productComboBox.SelectedValue.ToString();
+                string receiptId = receiptComboBox.SelectedValue.ToString()!;
+                string productId = productComboBox.SelectedValue.ToString()!;
 
                 var sale = new SaleModel
                 {

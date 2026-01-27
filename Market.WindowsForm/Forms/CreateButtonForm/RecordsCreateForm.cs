@@ -33,7 +33,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
             try
             {
                 var query = new FactoryQuery();
-                var factories = _factoryService.GetFactories(query);
+                var factories = _factory_service_get(query);
 
                 factoryComboBox.DisplayMember = "FactoryName";
                 factoryComboBox.ValueMember = "Id";
@@ -44,6 +44,11 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
                 MessageBox.Show($"Failed to load factories: {ex.Message}", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private System.Collections.Generic.List<FactoryModel> _factory_service_get(FactoryQuery q)
+        {
+            return _factoryService.GetFactories(q);
         }
 
         private void LoadCategories()
@@ -88,6 +93,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
             {
                 MessageBox.Show("Please select a factory.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                factoryComboBox.Focus();
                 return;
             }
 
@@ -95,6 +101,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
             {
                 MessageBox.Show("Please select a category.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                categoryComboBox.Focus();
                 return;
             }
 
@@ -102,6 +109,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
             {
                 MessageBox.Show("Please select a product.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                productComboBox.Focus();
                 return;
             }
 
@@ -113,7 +121,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
                 return;
             }
 
-            if (!int.TryParse(stockTextBox.Text, out int stock) || stock < 0)
+            if (!int.TryParse(stockTextBox.Text.Trim(), out int stock) || stock < 0)
             {
                 MessageBox.Show("Please enter a valid non-negative stock number.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -129,7 +137,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
                 return;
             }
 
-            if (!decimal.TryParse(priceTextBox.Text, out decimal price) || price < 0m)
+            if (!decimal.TryParse(priceTextBox.Text.Trim(), out decimal price) || price < 0m)
             {
                 MessageBox.Show("Please enter a valid non-negative price.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -137,12 +145,22 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
                 return;
             }
 
+            var expiration = dateTimePicker1.Value.Date;
+            if (expiration < DateTime.Today)
+            {
+                var ask = MessageBox.Show("Expiration date is in the past. Continue?", "Validation", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                if (ask != DialogResult.Yes)
+                {
+                    dateTimePicker1.Focus();
+                    return;
+                }
+            }
+
             try
             {
                 var factoryId = factoryComboBox.SelectedValue.ToString()!;
                 var categoryId = categoryComboBox.SelectedValue.ToString()!;
                 var productId = productComboBox.SelectedValue.ToString()!;
-                var expiration = dateTimePicker1.Value;
 
                 var record = new RecordModel
                 {
@@ -151,7 +169,7 @@ namespace Market.WindowsForm.Forms.CreateButtonForm
                     ProductId = productId,
                     Stock = stock,
                     Price = price,
-                    ExpirationDate = expiration
+                    ExpirationDate = dateTimePicker1.Value
                 };
 
                 _recordService.CreateRecord(record);

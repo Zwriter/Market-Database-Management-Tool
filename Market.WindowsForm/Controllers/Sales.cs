@@ -102,7 +102,14 @@ namespace Market.WindowsForm.Controls
             }
         }
 
-        private void updateButton_Click(object sender, EventArgs e)
+        private void FilterButton_click(object sender, EventArgs e)
+        {
+            var filterForm = new SalesFilterForm();
+            filterForm.FormClosed += (s, e) => LoadSales();
+            filterForm.ShowDialog();
+        }
+
+        private void SalesGridView_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow? row = null;
             if (SalesGridView.SelectedRows.Count > 0)
@@ -133,12 +140,18 @@ namespace Market.WindowsForm.Controls
                 MessageBox.Show($"Failed to update sale: {ex.Message}", "Update", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void FilterButton_click(object sender, EventArgs e)
+        private void exportButton_Click(object sender, EventArgs e)
         {
-            var filterForm = new SalesFilterForm();
-            filterForm.FormClosed += (s, e) => LoadSales();
-            filterForm.ShowDialog();
+            try
+            {
+                var success = Market.WindowsForm.Utils.XmlExporter.ExportDataGridViewToXml(SalesGridView, "Sales");
+                if (success)
+                    MessageBox.Show("Export completed successfully.", "Export", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Export failed: {ex.Message}", "Export Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

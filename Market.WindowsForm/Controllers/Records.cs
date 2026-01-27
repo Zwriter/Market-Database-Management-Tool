@@ -5,15 +5,8 @@ using Market.BusinessModel.Requests;
 using Market.WindowsForm.Forms.CreateButtonForm;
 using Market.WindowsForm.Forms.FilterButtonForm;
 using Market.WindowsForm.Forms.UpdateButtonForm;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace Market.WindowsForm.Controls
 {
@@ -109,7 +102,14 @@ namespace Market.WindowsForm.Controls
             }
         }
 
-        private void updateButton_Click(object sender, EventArgs e)
+        private void FilterButton_click(object sender, EventArgs e)
+        {
+            var filterForm = new RecordsFilterForm();
+            filterForm.FormClosed += (s, e) => LoadRecords();
+            filterForm.ShowDialog();
+        }
+
+        private void RecordsGridView_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow? row = null;
             if (RecordsGridView.SelectedRows.Count > 0)
@@ -140,12 +140,18 @@ namespace Market.WindowsForm.Controls
                 MessageBox.Show($"Failed to update record: {ex.Message}", "Update", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void FilterButton_click(object sender, EventArgs e)
+        private void exportButton_Click(object sender, EventArgs e)
         {
-            var filterForm = new RecordsFilterForm();
-            filterForm.FormClosed += (s, e) => LoadRecords();
-            filterForm.ShowDialog();
+            try
+            {
+                var success = Market.WindowsForm.Utils.XmlExporter.ExportDataGridViewToXml(RecordsGridView, "Records");
+                if (success)
+                    MessageBox.Show("Export completed successfully.", "Export", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Export failed: {ex.Message}", "Export Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

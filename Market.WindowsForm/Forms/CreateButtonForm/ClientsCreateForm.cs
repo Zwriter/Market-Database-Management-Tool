@@ -1,15 +1,8 @@
 ﻿using Market.BusinessModel.Interfaces;
 using Market.BusinessModel.Internal;
 using Market.BusinessModel.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
 
 namespace Market.WindowsForm.Forms
 {
@@ -25,13 +18,57 @@ namespace Market.WindowsForm.Forms
             _clientService = _serviceFactory.CreateClientService();
         }
 
+        private bool IsValidPhone(string phone)
+        {
+            if (string.IsNullOrWhiteSpace(phone)) return false;
+            return Regex.IsMatch(phone.Trim(), @"^[\d\+\-\s\(\)]{5,20}$");
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email)) return false;
+            try
+            {
+                var _ = new MailAddress(email.Trim());
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         private void saveButton_Click(object sender, EventArgs e)
         {
-            var name = nameTextBox.Text;
-            var phone = phoneTextBox.Text;
-            var email = emailTextBox.Text;
+            var name = nameTextBox.Text?.Trim();
+            var phone = phoneTextBox.Text?.Trim();
+            var email = emailTextBox.Text?.Trim();
 
-            if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(phone) && !string.IsNullOrEmpty(email))
+            if (string.IsNullOrEmpty(name))
+            {
+                MessageBox.Show("Client name is required.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                nameTextBox.Focus();
+                return;
+            }
+
+            if (!IsValidPhone(phone))
+            {
+                MessageBox.Show("Please enter a valid phone number (digits, +, -, spaces, parentheses).", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                phoneTextBox.Focus();
+                return;
+            }
+
+            if (!IsValidEmail(email))
+            {
+                MessageBox.Show("Please enter a valid email address.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                emailTextBox.Focus();
+                return;
+            }
+
+            try
             {
                 _clientService.CreateClient(new ClientModel
                 {
@@ -39,11 +76,16 @@ namespace Market.WindowsForm.Forms
                     PhoneNumber = phone,
                     Email = email
                 });
+
+                MessageBox.Show("Client created successfully.", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 this.Close();
             }
-            else
+            catch (Exception ex)
             {
-                return;
+                MessageBox.Show($"Failed to create client: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -174,7 +174,6 @@
             clientComboBox.Name = "clientComboBox";
             clientComboBox.Size = new Size(171, 28);
             clientComboBox.TabIndex = 0;
-            clientComboBox.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // ReceiptsCreateForm
             // 

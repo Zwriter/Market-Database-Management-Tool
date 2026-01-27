@@ -101,7 +101,14 @@ namespace Market.WindowsForm.Controls
             }
         }
 
-        private void updateButton_Click(object sender, EventArgs e)
+        private void FilterButton_click(object sender, EventArgs e)
+        {
+            var filterForm = new FactoriesFilterForn();
+            filterForm.FormClosed += (s, e) => LoadFactories();
+            filterForm.ShowDialog();
+        }
+
+        private void FactoriesGridView_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow? row = null;
             if (FactoriesGridView.SelectedRows.Count > 0)
@@ -133,11 +140,18 @@ namespace Market.WindowsForm.Controls
             }
         }
 
-        private void FilterButton_click(object sender, EventArgs e)
+        private void exportButton_Click(object sender, EventArgs e)
         {
-            var filterForm = new FactoriesFilterForn();
-            filterForm.FormClosed += (s, e) => LoadFactories();
-            filterForm.ShowDialog();
+            try
+            {
+                var success = Market.WindowsForm.Utils.XmlExporter.ExportDataGridViewToXml(FactoriesGridView, "Factories");
+                if (success)
+                    MessageBox.Show("Export completed successfully.", "Export", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Export failed: {ex.Message}", "Export Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

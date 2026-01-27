@@ -34,7 +34,7 @@
             RecordsGridView = new DataGridView();
             panel2 = new Panel();
             deleteButton = new Button();
-            updateButton = new Button();
+            exportButton = new Button();
             createButton = new Button();
             filterButton = new Button();
             panel1.SuspendLayout();
@@ -94,11 +94,12 @@
             RecordsGridView.RowHeadersWidth = 51;
             RecordsGridView.Size = new Size(521, 373);
             RecordsGridView.TabIndex = 2;
+            RecordsGridView.CellContentDoubleClick += RecordsGridView_CellContentDoubleClick;
             // 
             // panel2
             // 
             panel2.Controls.Add(deleteButton);
-            panel2.Controls.Add(updateButton);
+            panel2.Controls.Add(exportButton);
             panel2.Controls.Add(createButton);
             panel2.Controls.Add(filterButton);
             panel2.Dock = DockStyle.Fill;
@@ -121,19 +122,19 @@
             deleteButton.UseVisualStyleBackColor = true;
             deleteButton.Click += deleteButton_Click;
             // 
-            // updateButton
+            // exportButton
             // 
-            updateButton.Dock = DockStyle.Top;
-            updateButton.FlatAppearance.BorderSize = 0;
-            updateButton.FlatStyle = FlatStyle.Flat;
-            updateButton.ForeColor = Color.FromArgb(219, 219, 219);
-            updateButton.Location = new Point(0, 58);
-            updateButton.Name = "updateButton";
-            updateButton.Size = new Size(104, 29);
-            updateButton.TabIndex = 13;
-            updateButton.Text = "Update";
-            updateButton.UseVisualStyleBackColor = true;
-            updateButton.Click += updateButton_Click;
+            exportButton.Dock = DockStyle.Top;
+            exportButton.FlatAppearance.BorderSize = 0;
+            exportButton.FlatStyle = FlatStyle.Flat;
+            exportButton.ForeColor = Color.FromArgb(219, 219, 219);
+            exportButton.Location = new Point(0, 58);
+            exportButton.Name = "exportButton";
+            exportButton.Size = new Size(104, 29);
+            exportButton.TabIndex = 13;
+            exportButton.Text = "Export";
+            exportButton.UseVisualStyleBackColor = true;
+            exportButton.Click += exportButton_Click;
             // 
             // createButton
             // 
@@ -187,7 +188,7 @@
         private Panel panel2;
         private DataGridView RecordsGridView;
         private Button deleteButton;
-        private Button updateButton;
+        private Button exportButton;
         private Button createButton;
         private Button filterButton;
         private Label label1;
