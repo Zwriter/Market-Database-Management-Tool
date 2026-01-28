@@ -14,5 +14,9 @@ namespace Market.DataAccess.Factories
         {
             return new SQLRepository<T>();
         }
+        public IReportingRepository CreateReportingRepository()
+        {
+            return new SQLReportingRepository();
+        }
     }
 }

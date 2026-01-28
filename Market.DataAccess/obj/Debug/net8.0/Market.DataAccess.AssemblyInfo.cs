@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Market.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ccc4d7f365b9713ba269c56f3ad909bde0f8828")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3054d70cdde7a82c68ac52c0227b35dd305e7307")]
 [assembly: System.Reflection.AssemblyProductAttribute("Market.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Market.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

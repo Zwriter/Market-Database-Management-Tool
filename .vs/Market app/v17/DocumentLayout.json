@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "D:\\Programming\\C#\\Market app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\controllers\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\clientsupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\forms\\updatebuttonform\\categoriesupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\categoriesupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\forms\\updatebuttonform\\factoriesupdateform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\updatebuttonform\\factoriesupdateform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\forms\\createbuttonform\\receiptscreateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\createbuttonform\\receiptscreateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\MainForm.cs",
               "RelativeDocumentMoniker": "Market.WindowsForm\\MainForm.cs",
@@ -50,79 +30,19 @@
               "RelativeToolTip": "Market.WindowsForm\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T15:58:38.629Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Clients.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Controllers\\Clients.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs",
-              "RelativeToolTip": "Market.WindowsForm\\Controllers\\Clients.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAwwIwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:49:48.403Z",
-              "EditorCaption": ""
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Clients.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Controllers\\Clients.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Clients.cs [Design]",
-              "RelativeToolTip": "Market.WindowsForm\\Controllers\\Clients.cs [Design]",
+              "Title": "ReceiptsCreateForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs [Design]",
+              "RelativeToolTip": "Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:49:35.639Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientsUpdateForm.cs",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs*",
-              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T16:46:49.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FactoriesUpdateForm.cs.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs [Design]",
-              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\FactoriesUpdateForm.cs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T18:22:12.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientsUpdateForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs [Design]*",
-              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\ClientsUpdateForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T18:13:35.008Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriesUpdateForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs [Design]*",
-              "RelativeToolTip": "Market.WindowsForm\\Forms\\UpdateButtonForm\\CategoriesUpdateForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T19:24:54.162Z",
+              "WhenOpened": "2026-01-27T19:25:22.089Z",
               "EditorCaption": " [Design]"
             }
           ]

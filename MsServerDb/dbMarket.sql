@@ -104,6 +104,58 @@ DROP TABLE tFactory
 DROP TABLE tSale
 DROP TABLE tRecord
 
+---------------------PROCEDURES-------------------------
+
+-- Sales grouped by day
+CREATE PROCEDURE dbo.GetSalesByDateRange
+    @FromDate DATE,
+    @ToDate DATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT
+        CAST(CreatedAt AS DATE) AS SaleDate,
+        SUM(Quantity) AS TotalQuantity,
+        COUNT(*) AS SalesCount
+    FROM tSale s
+    LEFT JOIN tReceipt r ON s.ReceiptId = r.Id
+    WHERE r.CreatedAt >= @FromDate AND r.CreatedAt <= @ToDate
+    GROUP BY CAST(r.CreatedAt AS DATE)
+    ORDER BY SaleDate;
+END
+
+-- Top N products
+CREATE PROCEDURE dbo.GetTopProducts
+    @TopN INT = 10
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT TOP (@TopN)
+        p.Id AS ProductId,
+        p.ProductName,
+        SUM(s.Quantity) AS TotalQuantity
+    FROM tSale s
+    INNER JOIN tProduct p ON s.ProductId = p.Id
+    GROUP BY p.Id, p.ProductName
+    ORDER BY TotalQuantity DESC;
+END
+
+-- Current stock by product
+CREATE PROCEDURE dbo.GetStockByProduct
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT
+        p.Id AS ProductId,
+        p.ProductName,
+        SUM(r.Stock) AS TotalStock,
+        AVG(r.Price) AS AvgPrice
+    FROM tRecord r
+    INNER JOIN tProduct p ON r.ProductId = p.Id
+    GROUP BY p.Id, p.ProductName
+    ORDER BY p.ProductName;
+END
+
 ----------------------TRIGGERS--------------------------
 
 CREATE TRIGGER trg_UpdateClient

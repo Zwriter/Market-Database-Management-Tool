@@ -35,13 +35,18 @@
             panel3 = new Panel();
             label2 = new Label();
             panel4 = new Panel();
-            pictureBox1 = new PictureBox();
+            panel5 = new Panel();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            panel6 = new Panel();
+            tableLayoutPanel3 = new TableLayoutPanel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel5.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            panel6.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -117,21 +122,60 @@
             // 
             // panel4
             // 
-            panel4.Controls.Add(pictureBox1);
+            panel4.Controls.Add(panel5);
             panel4.Dock = DockStyle.Fill;
             panel4.Location = new Point(3, 61);
             panel4.Name = "panel4";
             panel4.Size = new Size(631, 315);
             panel4.TabIndex = 1;
             // 
-            // pictureBox1
+            // panel5
             // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(631, 315);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            panel5.Controls.Add(tableLayoutPanel2);
+            panel5.Dock = DockStyle.Fill;
+            panel5.Location = new Point(0, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(631, 315);
+            panel5.TabIndex = 0;
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 3;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 3.32805061F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 96.67195F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Controls.Add(panel6, 1, 1);
+            tableLayoutPanel2.Dock = DockStyle.Fill;
+            tableLayoutPanel2.Location = new Point(0, 0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 3;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 6.802721F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 93.19728F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Size = new Size(631, 315);
+            tableLayoutPanel2.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            panel6.Controls.Add(tableLayoutPanel3);
+            panel6.Dock = DockStyle.Fill;
+            panel6.Location = new Point(23, 23);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(584, 268);
+            panel6.TabIndex = 0;
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 2;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 62.3287659F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 37.6712341F));
+            tableLayoutPanel3.Dock = DockStyle.Fill;
+            tableLayoutPanel3.Location = new Point(0, 0);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 1;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.Size = new Size(584, 268);
+            tableLayoutPanel3.TabIndex = 0;
             // 
             // Home
             // 
@@ -149,7 +193,9 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel5.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            panel6.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -162,6 +208,9 @@
         private Panel panel3;
         private Label label2;
         private Panel panel4;
-        private PictureBox pictureBox1;
+        private Panel panel5;
+        private TableLayoutPanel tableLayoutPanel2;
+        private Panel panel6;
+        private TableLayoutPanel tableLayoutPanel3;
     }
 }

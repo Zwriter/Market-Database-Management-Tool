@@ -16,5 +16,6 @@ namespace Market.WindowsForm.Controls
         {
             InitializeComponent();
         }
+
     }
 }
