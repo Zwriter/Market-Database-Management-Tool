@@ -129,9 +129,31 @@ namespace Market.WindowsForm.Controls
 
         private void filterButton_Click(object sender, EventArgs e)
         {
-            var filterForm = new CategoriesFilter();
-            filterForm.FormClosed += (s, e) => LoadCategories();
-            filterForm.ShowDialog();
+            try
+            {
+                using var filterForm = new CategoriesFilter();
+                if (filterForm.ShowDialog() != DialogResult.OK || filterForm.Query == null)
+                    return;
+
+                var query = filterForm.Query;
+                List<CategoryModel> categories = _categoryService.GetCategories(query);
+
+                var bs = new BindingSource
+                {
+                    DataSource = new BindingList<CategoryModel>(categories)
+                };
+
+                CategoriesGridView.AutoGenerateColumns = true;
+                CategoriesGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                CategoriesGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                CategoriesGridView.DataSource = bs;
+                CategoriesGridView.Refresh();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to apply filter: {ex.Message}", "Filter Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void CategoriesGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)

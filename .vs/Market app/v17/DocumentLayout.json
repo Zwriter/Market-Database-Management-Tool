@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|d:\\programming\\c#\\market app\\market.windowsform\\forms\\createbuttonform\\receiptscreateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\forms\\createbuttonform\\receiptscreateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|D:\\Programming\\C#\\Market app\\market.windowsform\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{362832F2-6E21-4C94-84C8-966EC50F5CD0}|Market.WindowsForm\\Market.WindowsForm.csproj|solutionrelative:market.windowsform\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,14 +36,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReceiptsCreateForm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs",
-              "RelativeDocumentMoniker": "Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs",
-              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs [Design]",
-              "RelativeToolTip": "Market.WindowsForm\\Forms\\CreateButtonForm\\ReceiptsCreateForm.cs [Design]",
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Home.cs",
+              "RelativeDocumentMoniker": "Market.WindowsForm\\Controllers\\Home.cs",
+              "ToolTip": "D:\\Programming\\C#\\Market app\\Market.WindowsForm\\Controllers\\Home.cs [Design]",
+              "RelativeToolTip": "Market.WindowsForm\\Controllers\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T19:25:22.089Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-28T09:46:19.658Z"
             }
           ]
         }

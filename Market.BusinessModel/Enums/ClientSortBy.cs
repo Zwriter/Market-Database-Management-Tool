@@ -9,6 +9,7 @@ namespace Market.BusinessModel.Enums
     public enum ClientSortBy
     {
         Name,
+        PhoneNumber,
         Email,
         CreatedAt
     }

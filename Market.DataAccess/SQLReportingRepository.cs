@@ -92,5 +92,27 @@ namespace Market.DataAccess
 
             return results;
         }
+        public List<EarningsByDateDto> GetEarningsByDateRange(DateTime from, DateTime to)
+        {
+            var results = new List<EarningsByDateDto>();
+            using var conn = new SqlConnection(_connectionString);
+            using var cmd = new SqlCommand("dbo.GetEarningsByDateRange", conn)
+            {
+                CommandType = CommandType.StoredProcedure
+            };
+
+            cmd.Parameters.AddWithValue("@FromDate", from.Date);
+            cmd.Parameters.AddWithValue("@ToDate", to.Date);
+
+            conn.Open();
+
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                results.Add(RepositoryHelpers.MapEntity<EarningsByDateDto>(reader));
+            }
+
+            return results;
+        }
     }
 }

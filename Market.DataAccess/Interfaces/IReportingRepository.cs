@@ -12,5 +12,6 @@ namespace Market.DataAccess.Interfaces
         List<SalesByDateDto> GetSalesByDateRange(DateTime from, DateTime to);
         List<TopProductDto> GetTopProducts(int topN = 10);
         List<StockByProductDto> GetStockByProduct();
+        List<EarningsByDateDto> GetEarningsByDateRange(DateTime from, DateTime to);
     }
 }

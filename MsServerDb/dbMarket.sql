@@ -106,6 +106,31 @@ DROP TABLE tRecord
 
 ---------------------PROCEDURES-------------------------
 
+-- Earnings for a set period
+
+CREATE PROCEDURE dbo.GetEarningsByDateRange
+    @FromDate DATE,
+    @ToDate DATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    WITH AvgPrice AS (
+        SELECT ProductId, AVG(Price) AS AvgPrice
+        FROM tRecord
+        GROUP BY ProductId
+    )
+    SELECT
+        CAST(r.CreatedAt AS DATE) AS SaleDate,
+        SUM(s.Quantity * ISNULL(ap.AvgPrice, 0)) AS TotalEarnings
+    FROM tSale s
+    LEFT JOIN tReceipt r ON s.ReceiptId = r.Id
+    LEFT JOIN AvgPrice ap ON s.ProductId = ap.ProductId
+    WHERE r.CreatedAt >= @FromDate AND r.CreatedAt <= @ToDate
+    GROUP BY CAST(r.CreatedAt AS DATE)
+    ORDER BY SaleDate;
+END
+GO
+
 -- Sales grouped by day
 CREATE PROCEDURE dbo.GetSalesByDateRange
     @FromDate DATE,
