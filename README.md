@@ -1,4 +1,4 @@
-# Market � Windows Forms Management Tool
+# Market - Windows Forms Management Tool
 
 A simple Windows Forms administration tool for managing market data (Clients, Categories, Factories, Products, Receipts, Sales, Records). This README documents how to build, run, and use the application and contains placeholders for screenshots showing key flows: creating, updating, deleting, exporting, filtering, and the Home page.
 
@@ -48,12 +48,12 @@ Ensure your `App.config` / configuration includes a connection string named `Mar
 > **Note:** Some reporting features call stored procedures. Ensure the database contains the procedures (see `Market.DataAccess/SqlProcedures.sql`).
 
 ## Project structure
-- `Market.WindowsForm` � WinForms UI, controllers, and forms.
-- `Market.BusinessModel` � domain models, requests, and service interfaces.
-- `Market.BusinessModel.Internal` � service implementations and ServiceFactory.
-- `Market.DataAccess` � SQL repository and reporting repository.
-- `Market.DataAccess.Factories` � repository factory.
-- `Styles`, `Forms`, and `Controls` � WinForms resources and controls.
+- `Market.WindowsForm` - WinForms UI, controllers, and forms.
+- `Market.BusinessModel` - domain models, requests, and service interfaces.
+- `Market.BusinessModel.Internal` - service implementations and ServiceFactory.
+- `Market.DataAccess` - SQL repository and reporting repository.
+- `Market.DataAccess.Factories` - repository factory.
+- `Styles`, `Forms`, and `Controls` - WinForms resources and controls.
 
 ## Usage
 Open the app and use the navigation buttons to switch controllers (Clients, Categories, Factories, Products, Sales, Receipts, Records, Home).
@@ -110,7 +110,7 @@ Add screenshots into `docs/screenshots/` and update the README to display them.
 
 - **Home page**
   - Path: `docs/screenshots/home.png`
-  - Caption: "Dashboard � top products and earnings"
+  - Caption: "Dashboard - top products and earnings"
 
 You can embed these images in README using Markdown after adding them to the `docs/screenshots/` folder:
 
