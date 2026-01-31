@@ -89,27 +89,33 @@ Open the app and use the navigation buttons to switch controllers (Clients, Cate
 Add screenshots into `docs/screenshots/` and update the README to display them.
 
 - **Create flow**
-  - Image: ![Create flow](docs/screenshots/create.png)
+  - Image:
+  - ![Create flow](docs/screenshots/create.png)
   - Caption: "Creating a new [Entity]"
 
 - **Update flow**
-  - Image: ![Update flow](docs/screenshots/update.png)
+  - Image:
+  - ![Update flow](docs/screenshots/update.png)
   - Caption: "Updating an existing [Entity]"
 
 - **Delete flow**
-  - Image: ![Delete flow](docs/screenshots/delete.png)
+  - Image:
+  - ![Delete flow](docs/screenshots/delete.png)
   - Caption: "Deleting an [Entity] with confirmation"
 
 - **Export flow**
-  - Image: ![Export flow](docs/screenshots/export.png)
+  - Image:
+  - ![Export flow](docs/screenshots/export.png)
   - Caption: "Export grid to XML"
 
 - **Filter flow**
-  - Image: ![Filter flow](docs/screenshots/filter.png)
+  - Image:
+  - ![Filter flow](docs/screenshots/filter.png)
   - Caption: "Filtering and sorting results"
 
 - **Home page**
-  - Image: ![Home page](docs/screenshots/home.png)
+  - Image:
+  - ![Home page](docs/screenshots/home.png)
   - Caption: "Dashboard - top products and earnings"
 
 
