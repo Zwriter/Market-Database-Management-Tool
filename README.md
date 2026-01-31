@@ -89,35 +89,28 @@ Open the app and use the navigation buttons to switch controllers (Clients, Cate
 Add screenshots into `docs/screenshots/` and update the README to display them.
 
 - **Create flow**
-  - Path: `docs/screenshots/create.png`
+  - Image: ![Create flow](docs/screenshots/create.png)
   - Caption: "Creating a new [Entity]"
 
 - **Update flow**
-  - Path: `docs/screenshots/update.png`
+  - Image: ![Update flow](docs/screenshots/update.png)
   - Caption: "Updating an existing [Entity]"
 
 - **Delete flow**
-  - Path: `docs/screenshots/delete.png`
+  - Image: ![Delete flow](docs/screenshots/delete.png)
   - Caption: "Deleting an [Entity] with confirmation"
 
 - **Export flow**
-  - Path: `docs/screenshots/export.png`
+  - Image: ![Export flow](docs/screenshots/export.png)
   - Caption: "Export grid to XML"
 
 - **Filter flow**
-  - Path: `docs/screenshots/filter.png`
+  - Image: ![Filter flow](docs/screenshots/filter.png)
   - Caption: "Filtering and sorting results"
 
 - **Home page**
-  - Path: `docs/screenshots/home.png`
+  - Image: ![Home page](docs/screenshots/home.png)
   - Caption: "Dashboard - top products and earnings"
-
-You can embed these images in README using Markdown after adding them to the `docs/screenshots/` folder:
-
-![Create flow](docs/screenshots/create.png)
-
-Replace filenames as needed.
-
 
 
 ## Contact
